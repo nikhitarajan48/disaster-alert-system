@@ -1,0 +1,187 @@
+{
+  "alerts": [
+    {
+      "_id": "a1-flood-chennai",
+      "title": "Urban Flood Warning",
+      "description": "Heavy rainfall has caused waterlogging in low-lying roads. Avoid travel after 8 PM and move vehicles to higher ground.",
+      "location": "Velachery, Chennai",
+      "severity": "High",
+      "timestamp": "2026-04-11T10:20:00.000Z",
+      "createdAt": "2026-04-11T10:20:00.000Z",
+      "updatedAt": "2026-04-11T10:20:00.000Z"
+    },
+    {
+      "_id": "a2-fire-bengaluru",
+      "title": "Industrial Fire Advisory",
+      "description": "A warehouse fire is under control. Residents in nearby blocks should keep windows closed due to smoke.",
+      "location": "Peenya, Bengaluru",
+      "severity": "Medium",
+      "timestamp": "2026-04-11T09:05:00.000Z",
+      "createdAt": "2026-04-11T09:05:00.000Z",
+      "updatedAt": "2026-04-11T09:05:00.000Z"
+    },
+    {
+      "_id": "a3-earthquake-delhi",
+      "title": "Minor Earthquake Tremors",
+      "description": "Mild tremors were reported. No major structural damage confirmed. Stay alert for official aftershock updates.",
+      "location": "North Delhi",
+      "severity": "Low",
+      "timestamp": "2026-04-11T07:40:00.000Z",
+      "createdAt": "2026-04-11T07:40:00.000Z",
+      "updatedAt": "2026-04-11T07:40:00.000Z"
+    },
+    {
+      "_id": "a4-cyclone-vizag",
+      "title": "Cyclone Landfall Preparation",
+      "description": "Strong winds expected in coastal areas. Fishermen are advised not to venture into the sea for the next 24 hours.",
+      "location": "Visakhapatnam Coast",
+      "severity": "High",
+      "timestamp": "2026-04-11T06:10:00.000Z",
+      "createdAt": "2026-04-11T06:10:00.000Z",
+      "updatedAt": "2026-04-11T06:10:00.000Z"
+    },
+    {
+      "_id": "a5-landslide-shimla",
+      "title": "Landslide Risk Notice",
+      "description": "Continuous rainfall has increased landslide risk on hillside routes. Follow district control room advisories.",
+      "location": "Shimla Bypass",
+      "severity": "Medium",
+      "timestamp": "2026-04-10T21:30:00.000Z",
+      "createdAt": "2026-04-10T21:30:00.000Z",
+      "updatedAt": "2026-04-10T21:30:00.000Z"
+    },
+    {
+      "_id": "a6-heatwave-hyderabad",
+      "title": "Heatwave Health Alert",
+      "description": "Temperatures may cross 43°C. Avoid direct sunlight during afternoon hours and stay hydrated.",
+      "location": "Secunderabad, Hyderabad",
+      "severity": "Medium",
+      "timestamp": "2026-04-10T15:00:00.000Z",
+      "createdAt": "2026-04-10T15:00:00.000Z",
+      "updatedAt": "2026-04-10T15:00:00.000Z"
+    }
+  ],
+  "resources": [
+    {
+      "_id": "r1-apollo-chennai",
+      "name": "Apollo Emergency Center",
+      "type": "hospital",
+      "latitude": 13.0503,
+      "longitude": 80.2129,
+      "availability": "available",
+      "createdAt": "2026-04-10T12:00:00.000Z",
+      "updatedAt": "2026-04-10T12:00:00.000Z"
+    },
+    {
+      "_id": "r2-redcross-camp-chennai",
+      "name": "Red Cross Relief Camp",
+      "type": "shelter",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "availability": "limited",
+      "createdAt": "2026-04-10T12:10:00.000Z",
+      "updatedAt": "2026-04-10T12:10:00.000Z"
+    },
+    {
+      "_id": "r3-central-police-chennai",
+      "name": "Central Police Assistance Booth",
+      "type": "police",
+      "latitude": 13.0674,
+      "longitude": 80.2376,
+      "availability": "available",
+      "createdAt": "2026-04-10T12:20:00.000Z",
+      "updatedAt": "2026-04-10T12:20:00.000Z"
+    },
+    {
+      "_id": "r4-fortis-bengaluru",
+      "name": "Fortis Rapid Response Hospital",
+      "type": "hospital",
+      "latitude": 12.9698,
+      "longitude": 77.7499,
+      "availability": "limited",
+      "createdAt": "2026-04-10T12:30:00.000Z",
+      "updatedAt": "2026-04-10T12:30:00.000Z"
+    },
+    {
+      "_id": "r5-community-shelter-bengaluru",
+      "name": "Community Shelter Hall",
+      "type": "shelter",
+      "latitude": 12.9352,
+      "longitude": 77.6245,
+      "availability": "available",
+      "createdAt": "2026-04-10T12:40:00.000Z",
+      "updatedAt": "2026-04-10T12:40:00.000Z"
+    },
+    {
+      "_id": "r6-city-police-bengaluru",
+      "name": "City Police Control Point",
+      "type": "police",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "availability": "available",
+      "createdAt": "2026-04-10T12:50:00.000Z",
+      "updatedAt": "2026-04-10T12:50:00.000Z"
+    },
+    {
+      "_id": "r7-aiims-delhi",
+      "name": "AIIMS Trauma Unit",
+      "type": "hospital",
+      "latitude": 28.5672,
+      "longitude": 77.2100,
+      "availability": "full",
+      "createdAt": "2026-04-10T13:00:00.000Z",
+      "updatedAt": "2026-04-10T13:00:00.000Z"
+    },
+    {
+      "_id": "r8-delhi-relief-shelter",
+      "name": "Delhi Relief Shelter Zone",
+      "type": "shelter",
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "availability": "available",
+      "createdAt": "2026-04-10T13:10:00.000Z",
+      "updatedAt": "2026-04-10T13:10:00.000Z"
+    },
+    {
+      "_id": "r9-delhi-police-hq",
+      "name": "Delhi Police HQ Desk",
+      "type": "police",
+      "latitude": 28.6304,
+      "longitude": 77.2177,
+      "availability": "limited",
+      "createdAt": "2026-04-10T13:20:00.000Z",
+      "updatedAt": "2026-04-10T13:20:00.000Z"
+    },
+    {
+      "_id": "r10-king-george-vizag",
+      "name": "King George Emergency Wing",
+      "type": "hospital",
+      "latitude": 17.7200,
+      "longitude": 83.3151,
+      "availability": "available",
+      "createdAt": "2026-04-10T13:30:00.000Z",
+      "updatedAt": "2026-04-10T13:30:00.000Z"
+    },
+    {
+      "_id": "r11-vizag-coastal-camp",
+      "name": "Vizag Coastal Relief Camp",
+      "type": "shelter",
+      "latitude": 17.6868,
+      "longitude": 83.2185,
+      "availability": "limited",
+      "createdAt": "2026-04-10T13:40:00.000Z",
+      "updatedAt": "2026-04-10T13:40:00.000Z"
+    },
+    {
+      "_id": "r12-vizag-harbor-police",
+      "name": "Harbor Police Help Center",
+      "type": "police",
+      "latitude": 17.6997,
+      "longitude": 83.2896,
+      "availability": "available",
+      "createdAt": "2026-04-10T13:50:00.000Z",
+      "updatedAt": "2026-04-10T13:50:00.000Z"
+    }
+  ],
+  "users": []
+}
